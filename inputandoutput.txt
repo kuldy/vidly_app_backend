@@ -1,0 +1,157 @@
+listings object
+{
+  "category": {
+    "backgroundColor": "#001f3f",
+    "icon": "apps",
+    "label": "App",
+    "value": 1
+  },
+  "description": "This is description",
+  "images": [
+    "file:///data/user/0/host.exp.exponent/cache/ExperienceData/UNVERIFIED-192.168.43.246-DoneWithIt/ImagePicker/c471e842-8a00-4af3-842d-cdf1902aa3ac.jpg",
+    "file:///data/user/0/host.exp.exponent/cache/ExperienceData/UNVERIFIED-192.168.43.246-DoneWithIt/ImagePicker/2d49f2e8-0098-48da-a195-9fb21aecbd08.jpg"
+  ],
+  "price": "20",
+  "title": "Kullu"
+}
+
+
+echo getVar()
+
+stdClass Object
+(
+    [category
+] => stdClass Object
+        (
+            [backgroundColor
+] => #001f3f
+            [icon
+] => apps
+            [label
+] => App
+            [value
+] => 1
+        )
+
+    [description
+] => This is description
+    [images
+] => Array
+        (
+            [
+    0
+] => file: ///data/user/0/host.exp.exponent/cache/ExperienceData/UNVERIFIED-192.168.43.246-DoneWithIt/ImagePicker/c471e842-8a00-4af3-842d-cdf1902aa3ac.jpg [
+    1
+] => file: ///data/user/0/host.exp.exponent/cache/ExperienceData/UNVERIFIED-192.168.43.246-DoneWithIt/ImagePicker/2d49f2e8-0098-48da-a195-9fb21aecbd08.jpg
+        )
+
+    [price
+] => 20
+    [title
+] => Kullu
+)
+
+
+the post data is: FormData {
+  "_parts": Array [
+    Array [
+      "title",
+      "Kullu",
+    ],
+    Array [
+      "price",
+      "28",
+    ],
+    Array [
+      "category",
+      9,
+    ],
+    Array [
+      "description",
+      "This is description",
+    ],
+    Array [
+      "images",
+      Object {
+        "name": "image0",
+        "type": "image/jpeg",
+        "uri1": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/UNVERIFIED-192.168.43.246-DoneWithIt/ImagePicker/4693eb68-f929-4921-a206-91b9ac9aef1c.jpg",
+      },
+    ],
+    Array [
+      "images",
+      Object {
+        "name": "image1",
+        "type": "image/jpeg",
+        "uri1": "file:///data/user/0/host.exp.exponent/cache/ExperienceData/UNVERIFIED-192.168.43.246-DoneWithIt/ImagePicker/2f1f6df0-8041-4047-8981-832d5ae28c77.jpg",
+      },
+    ],
+    Array [
+      "location",
+      "{\"longitude\":83.0597965,\"latitude\":26.7923335}",
+    ],
+  ],
+}
+
+json form data {"_parts":[["title","Kullu"],["price","28"],["category",9],["description","This is description"],["images",{"name":"image0","type":"image/jpeg","uri1":"file:///data/user/0/host.exp.exponent/cache/ExperienceData/UNVERIFIED-192.168.43.246-DoneWithIt/ImagePicker/4693eb68-f929-4921-a206-91b9ac9aef1c.jpg"}],["images",{"name":"image1","type":"image/jpeg","uri1":"file:///data/user/0/host.exp.exponent/cache/ExperienceData/UNVERIFIED-192.168.43.246-DoneWithIt/ImagePicker/2f1f6df0-8041-4047-8981-832d5ae28c77.jpg"}],["location","{\"longitude\":83.0597965,\"latitude\":26.7923335}"]]}
+
+stdClass Object
+(
+    [_parts] => Array
+	(
+            [0] => Array
+                ([0] => title
+		 [1] => Kullu
+                )
+
+            [1] => Array(
+                    [0] => price
+                    [1] => 28
+                )
+
+            [2] => Array
+                (
+                    [0] => category
+                    [1] => 9
+                )
+
+            [3] => Array
+                (
+                    [0] => description
+                    [1] => This is description
+                )
+
+            [4] => Array
+                (
+                    [0] => images
+                    [1] => stdClass Object
+                        (
+                            [name] => image0
+                            [type] => image/jpeg
+                            [uri1] => file: ///data/user/0/host.exp.exponent/cache/ExperienceData/UNVERIFIED-192.168.43.246-DoneWithIt/ImagePicker/4693eb68-f929-4921-a206-91b9ac9aef1c.jpg
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [0] => images
+                    [1] => stdClass Object
+                        (
+                            [name] => image1
+                            [type] => image/jpeg
+                            [uri1] => file: ///data/user/0/host.exp.exponent/cache/ExperienceData/UNVERIFIED-192.168.43.246-DoneWithIt/ImagePicker/2f1f6df0-8041-4047-8981-832d5ae28c77.jpg
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [0] => location
+                    [1] => {"longitude": 83.0597965, "latitude": 26.7923335}
+                )
+        )
+)
+
+
+
