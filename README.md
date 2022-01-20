@@ -1,3 +1,10 @@
+### first download the app
+### go to root directory of app
+### run composer install // works only id composer is installed in the system
+### now create the database and configure it with project
+### run php spark serve   // it will start app at http://localhost:8080
+
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
